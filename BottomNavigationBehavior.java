@@ -15,9 +15,7 @@ import android.util.AttributeSet;
 import android.view.ViewGroup;
 import android.view.animation.Interpolator;
 
-/**
- * Created by Avinash Mujja on 12/6/17.
- */
+
 
 public class BottomNavigationBehavior<V extends View> extends VerticalScrollingBehavior<V> {
     private static final Interpolator INTERPOLATOR = new LinearOutSlowInInterpolator();
